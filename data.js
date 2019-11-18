@@ -63,7 +63,8 @@ const data = [
 		details: "Draw on a pixel grid with you mouse",
 		photo: "./assets/projects/etch.png",
 		tags: "Javascript, HTML, CSS",
-		github: "https://github.com/mfowlerfinn/etch-a-sketch"
+		github: "https://github.com/mfowlerfinn/etch-a-sketch",
+		live: "https://mfowlerfinn.github.io/etch-a-sketch/"
 	},
 	{
 		title: "Voltage Logging Webserver",
