@@ -2,7 +2,7 @@ const data = [
 	{
 		title: "React Webapp",
 		details:
-			"Shows integration of CRUD database with a React frontend",
+			"Shows integration of Firebase with a React frontend",
 		photo: "./assets/projects/cotd.png",
 		tags: "React, JS, Firebase",
 		live: "https://catch-of-the-day.mattfowlerfinn.now.sh/",
