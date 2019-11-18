@@ -7,7 +7,7 @@ const data = [
 		tags: "React, JS, Firebase",
 		live: "https://catch-of-the-day.mattfowlerfinn.now.sh/",
 		github: "https://github.com/mfowlerfinn/catch-of-the-day/"
-	}
+	},
 	{
 		title: "Envelope Labeler",
 		details:
