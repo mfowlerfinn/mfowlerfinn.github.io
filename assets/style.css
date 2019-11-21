@@ -1,5 +1,5 @@
 :root {
-  --radius: 15px;
+  --radius: 2px;
   --card_height: 266px;
   --card_width: 200px;
   --frame_color: black;
@@ -29,9 +29,23 @@ html {
 }
 
 body {
-  background:
-    radial-gradient(circle at 100% 50%, transparent 26%, var(--bg-stripe) 26%, var(--bg-stripe) 29%, transparent 29%, transparent),
-    radial-gradient(circle at 0% 50%, transparent 26%, var(--bg-stripe) 26%, var(--bg-stripe) 29%, transparent 29%, transparent) 0 -50px;
+  background: radial-gradient(
+      circle at 100% 50%,
+      transparent 26%,
+      var(--bg-stripe) 26%,
+      var(--bg-stripe) 29%,
+      transparent 29%,
+      transparent
+    ),
+    radial-gradient(
+        circle at 0% 50%,
+        transparent 26%,
+        var(--bg-stripe) 26%,
+        var(--bg-stripe) 29%,
+        transparent 29%,
+        transparent
+      )
+      0 -50px;
   background-color: var(--bg-main);
   background-size: 75px 100px;
   margin: 0px;
@@ -41,7 +55,7 @@ body {
 }
 
 .nav-wrapper {
-  transition-duration: .1s;
+  transition-duration: 0.1s;
   margin: 0;
   position: fixed;
   top: 0;
@@ -75,11 +89,11 @@ body {
 }
 
 #github {
-  max-height: calc(var(--nav_height) * (5/8));
+  max-height: calc(var(--nav_height) * (5 / 8));
   margin-right: 10px;
   object-fit: contain;
   border: 1px solid rgba(0, 0, 0, 1);
-  border-radius: calc(var(--nav_height) * (5/16));
+  border-radius: calc(var(--nav_height) * (5 / 16));
   filter: opacity(0.5);
 }
 
@@ -116,7 +130,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 300px;
-  box-shadow: 3px 3px 8px 3px rgba(0, 0, 0, .7);
+  box-shadow: 3px 3px 8px 3px rgba(0, 0, 0, 0.7);
   background: rgba(0, 0, 0, 0.7);
   color: white;
   box-sizing: content-box;
@@ -135,7 +149,6 @@ body {
   display: flex;
   flex-direction: column;
 }
-
 
 .card__title__text {
   padding: 1rem;
@@ -182,19 +195,16 @@ body {
 }
 
 .link_icon:hover {
-
   filter: invert() sepia() saturate(10000%) hue-rotate(350deg);
 }
 
-
-@media all and (max-width:1080px) {
+@media all and (max-width: 1080px) {
   .cards {
     grid-template-columns: repeat(2, 300px);
   }
 }
 
-@media all and (max-width:700px) {
-
+@media all and (max-width: 700px) {
   .cards {
     grid-template-columns: repeat(1, 300px);
   }
@@ -209,7 +219,8 @@ body {
   }
 }
 
-@media all and (max-width:415px) {
+@media all and (max-width: 415px) {
   #projects {
     display: none;
   }
+}

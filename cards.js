@@ -1,12 +1,16 @@
-const cardContainer = document.querySelector('.cards');
+const cardContainer = document.querySelector(".cards");
 
 function showProjects() {
   let html = "";
   let i = 0;
   data.forEach(card => {
     let liveLink, gitLink;
-    card.live ? liveLink = `<a href="${card.live}" class="live icon det" target="_blank"><img class="link_icon" src="./assets/images/launch.png" width=32px; height=32px; title="launch"</a>` : liveLink = "";
-    card.github ? gitLink = `<a href="${card.github}" class="github icon det" target="_blank"><img class="link_icon" src="./assets/images/GitHub-Mark-64px.png" width=32px; height=32px; title="github"></a>` : gitLink = "";
+    card.live
+      ? (liveLink = `<a href="${card.live}" class="live icon det" target="_blank"><img class="link_icon" src="./assets/images/launch.png" width=32px; height=32px; title="launch"</a>`)
+      : (liveLink = "");
+    card.github
+      ? (gitLink = `<a href="${card.github}" class="github icon det" target="_blank"><img class="link_icon" src="./assets/images/GitHub-Mark-64px.png" width=32px; height=32px; title="github"></a>`)
+      : (gitLink = "");
     let oneCard = `
       <div name="card-${i}" id="card-${i}" class="card">
         <img class="card__photo" src="${card.photo}"></img>
