@@ -69,7 +69,7 @@ const data = [
 	},
 	{
 		title: "Etch-a-Sketch",
-		details: "Draw on a pixel grid with you mouse",
+		details: "Draw on a pixel grid with your mouse",
 		photo: "./assets/projects/etch.png",
 		tags: "Javascript, HTML, CSS",
 		github: "https://github.com/mfowlerfinn/etch-a-sketch",
