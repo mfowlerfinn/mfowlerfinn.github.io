@@ -1,5 +1,14 @@
 const data = [
 	{
+		title: "ISP speed logger",
+		details:
+			"Plots ISP speed data from Firebase using Svelte and Plotly, local server samples ISP speed",
+		photo: "./assets/projects/isp-logger.png",
+		tags: "Svelte, JS, Firebase, Plotly.js",
+		live: "https://svelte.mattfowlerfinn.now.sh/",
+		github: "https://github.com/mfowlerfinn/isp-performance-logger"
+	},
+	{
 		title: "React Webapp",
 		details:
 			"Shows integration of Firebase with a React frontend",
