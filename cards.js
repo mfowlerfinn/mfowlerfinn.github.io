@@ -5,11 +5,19 @@ function showProjects() {
   let i = 0;
   data.forEach(card => {
     let liveLink, gitLink;
+    let primaryLive, primaryGit;
+    if (card.live) {
+      primaryLive = "primaryLink";
+      primaryGit = "";
+    } else {
+      primaryLive = "";
+      primaryGit = "primaryLink";
+    }
     card.live
-      ? (liveLink = `<a href="${card.live}" class="live icon det" target="_blank"><img class="link_icon" src="./assets/images/launch.png" width=32px; height=32px; title="launch"</a>`)
+      ? (liveLink = `<a href="${card.live}" class="live icon det" target="_blank"><img class="link_icon ${primaryLive}" src="./assets/images/launch.png" width=32px; height=32px; title="launch"</a>`)
       : (liveLink = "");
     card.github
-      ? (gitLink = `<a href="${card.github}" class="github icon det" target="_blank"><img class="link_icon" src="./assets/images/GitHub-Mark-64px.png" width=32px; height=32px; title="github"></a>`)
+      ? (gitLink = `<a href="${card.github}" class="github icon det" target="_blank"><img class="link_icon ${primaryGit}" src="./assets/images/GitHub-Mark-64px.png" width=32px; height=32px; title="github"></a>`)
       : (gitLink = "");
     let oneCard = `
       <div name="card-${i}" id="card-${i}" class="card">
