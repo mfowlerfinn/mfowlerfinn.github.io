@@ -1,5 +1,14 @@
 const data = [
   {
+    title: "Mealizer",
+    details:
+      "Meal and grocery planner for fast meal planning",
+    photo: "./assets/projects/mealizer.png",
+    tags: "React, JS",
+    live: "https://mealizer.now.sh/",
+    github: "https://github.com/mfowlerfinn/mealizer"
+  },
+  {
     title: "ISP speed logger",
     details:
       "Plots ISP speed data from Firebase using Svelte and Plotly, local server samples ISP speed",
@@ -9,8 +18,8 @@ const data = [
     github: "https://github.com/mfowlerfinn/isp-performance-logger"
   },
   {
-    title: "React Webapp",
-    details: "Shows integration of Firebase with a React frontend",
+    title: "React webapp",
+    details: "Dynamic food menu using Firebase with a React frontend",
     photo: "./assets/projects/cotd.png",
     tags: "React, JS, Firebase",
     live: "https://catch-of-the-day.mattfowlerfinn.now.sh/",
