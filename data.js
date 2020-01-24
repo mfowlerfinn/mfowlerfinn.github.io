@@ -1,8 +1,7 @@
 const data = [
   {
     title: "Mealizer",
-    details:
-      "Meal and grocery planner for fast meal planning",
+    details: "Meal and grocery planner for fast meal planning",
     photo: "./assets/projects/mealizer.png",
     tags: "React, JS",
     live: "https://mealizer.now.sh/",
@@ -18,6 +17,15 @@ const data = [
     github: "https://github.com/mfowlerfinn/isp-performance-logger"
   },
   {
+    title: "Envelope Labeler",
+    details:
+      "Webapp that outputs envelopes from CSV input (client-side PDF assembly)",
+    photo: "./assets/projects/envelope.png",
+    tags: "JS, HTML, CSS, Webpack, pdfkit",
+    live: "https://mfowlerfinn.github.io/envelope_generator/",
+    github: "https://github.com/mfowlerfinn/envelope_generator/"
+  },
+  {
     title: "React webapp",
     details: "Dynamic food menu using Firebase with a React frontend",
     photo: "./assets/projects/cotd.png",
@@ -26,17 +34,8 @@ const data = [
     github: "https://github.com/mfowlerfinn/catch-of-the-day/"
   },
   {
-    title: "Envelope Labeler",
-    details:
-      "Webapp that outputs PDF envelopes from CSV input. Serverless PDF streaming with help of webpack.",
-    photo: "./assets/projects/envelope.png",
-    tags: "JS, HTML, CSS, Webpack, pdfkit",
-    live: "https://mfowlerfinn.github.io/envelope_generator/",
-    github: "https://github.com/mfowlerfinn/envelope_generator/"
-  },
-  {
     title: "Away timer webapp",
-    details: "see github",
+    details: "Timer to show when you'll be back",
     photo: "./assets/projects/web_timer.png",
     tags: "Javascript, HTML, CSS",
     live: "https://mfowlerfinn.github.io/away-timer_webapp/",
