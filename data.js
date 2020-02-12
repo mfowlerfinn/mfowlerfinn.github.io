@@ -8,6 +8,14 @@ const data = [
     github: "https://github.com/mfowlerfinn/mealizer"
   },
   {
+    title: "Calculator",
+    details: "Pretty-print calculator PWA with logging, fraction conversion, and other handy stuff.",
+    photo: "./assets/projects/calc.png",
+    tags: "React, JS, HTML, CSS",
+    github: "https://github.com/mfowlerfinn/calculator-web-app",
+    live: "https://calculator.mattfowlerfinn.now.sh/"
+  },
+  {
     title: "ISP speed logger",
     details:
       "Plots ISP speed data from Firebase using Svelte and Plotly, local server samples ISP speed",
@@ -37,7 +45,7 @@ const data = [
     title: "Away timer webapp",
     details: "Timer to show when you'll be back",
     photo: "./assets/projects/web_timer.png",
-    tags: "Javascript, HTML, CSS",
+    tags: "JS, HTML, CSS",
     live: "https://mfowlerfinn.github.io/away-timer_webapp/",
     github: "https://github.com/mfowlerfinn/away-timer_webapp"
   },
@@ -45,17 +53,9 @@ const data = [
     title: "Weather UVI webpage",
     details: "This web app shows the current weather along with the UV index.",
     photo: "./assets/projects/uvi_weather.png",
-    tags: "Javascript, HTML, CSS",
+    tags: "JS, HTML, CSS",
     live: "https://mfowlerfinn.github.io/weather-uvi-webpage/",
     github: "https://github.com/mfowlerfinn/weather-uvi-webpage"
-  },
-  {
-    title: "Calculator",
-    details: "Calculator web app",
-    photo: "./assets/projects/calc.png",
-    tags: "Javascript, HTML, CSS",
-    github: "https://github.com/mfowlerfinn/calculator-web-app",
-    live: "https://mfowlerfinn.github.io/calculator-web-app/"
   },
   {
     title: "Espresso PID thermostat",
