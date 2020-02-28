@@ -3,7 +3,7 @@ const data = [
     title: "Mealizer",
     details: "Meal and grocery planner for fast meal planning",
     photo: "./assets/projects/mealizer.png",
-    tags: "React, JS",
+    tags: "React, JS, MaterialUI",
     live: "https://mealizer.now.sh/",
     github: "https://github.com/mfowlerfinn/mealizer"
   },
@@ -12,13 +12,21 @@ const data = [
     details: "Pretty-print calculator PWA with logging, fraction conversion, and other handy stuff.",
     photo: "./assets/projects/calc.png",
     tags: "React, JS, HTML, CSS",
-    github: "https://github.com/mfowlerfinn/calculator-web-app",
-    live: "https://calculator.mattfowlerfinn.now.sh/"
+    live: "https://calculator.mattfowlerfinn.now.sh/",
+    github: "https://github.com/mfowlerfinn/calculator-web-app"
+  },
+  {
+    title: "Big Zillow Map",
+    details: "Published Web Extension for Firefox to make Zillow.com more useable.",
+    photo: "./assets/projects/zillow-big-map.png",
+    tags: "JS, HTML, CSS",
+    live: "https://addons.mozilla.org/en-US/firefox/addon/big-map-zillow/",
+    github: "https://github.com/mfowlerfinn/big-zillow-map"
   },
   {
     title: "ISP speed logger",
     details:
-      "Plots ISP speed data from Firebase using Svelte and Plotly, local server samples ISP speed",
+      "Plots sampled data from Firebase using Plotly, local server samples ISP speed",
     photo: "./assets/projects/isp-logger.png",
     tags: "Svelte, JS, Firebase, Plotly.js",
     live: "https://svelte.mattfowlerfinn.now.sh/",
@@ -27,27 +35,11 @@ const data = [
   {
     title: "Envelope Labeler",
     details:
-      "Webapp that outputs envelopes from CSV input (client-side PDF assembly)",
+      "Webapp that outputs PDF envelopes from CSV input (client-side)",
     photo: "./assets/projects/envelope.png",
     tags: "JS, HTML, CSS, Webpack, pdfkit",
     live: "https://mfowlerfinn.github.io/envelope_generator/",
     github: "https://github.com/mfowlerfinn/envelope_generator/"
-  },
-  {
-    title: "React webapp",
-    details: "Dynamic food menu using Firebase with a React frontend",
-    photo: "./assets/projects/cotd.png",
-    tags: "React, JS, Firebase",
-    live: "https://catch-of-the-day.mattfowlerfinn.now.sh/",
-    github: "https://github.com/mfowlerfinn/catch-of-the-day/"
-  },
-  {
-    title: "Away timer webapp",
-    details: "Timer to show when you'll be back",
-    photo: "./assets/projects/web_timer.png",
-    tags: "JS, HTML, CSS",
-    live: "https://mfowlerfinn.github.io/away-timer_webapp/",
-    github: "https://github.com/mfowlerfinn/away-timer_webapp"
   },
   {
     title: "Weather UVI webpage",
@@ -56,6 +48,14 @@ const data = [
     tags: "JS, HTML, CSS",
     live: "https://mfowlerfinn.github.io/weather-uvi-webpage/",
     github: "https://github.com/mfowlerfinn/weather-uvi-webpage"
+  },
+  {
+    title: "Away timer webapp",
+    details: "Timer to show when you'll be back",
+    photo: "./assets/projects/web_timer.png",
+    tags: "JS, HTML, CSS",
+    live: "https://mfowlerfinn.github.io/away-timer_webapp/",
+    github: "https://github.com/mfowlerfinn/away-timer_webapp"
   },
   {
     title: "Espresso PID thermostat",
