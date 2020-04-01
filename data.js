@@ -1,5 +1,13 @@
 const data = [
   {
+    title: "Gmap Tools",
+    details: "Measure, rotate, and zoom to scale on Google Maps",
+    photo: "./assets/projects/gmaptools.png",
+    tags: "Google Maps, JS, Paperjs",
+    live: "https://gmaptools.now.sh/",
+    github: "https://github.com/mfowlerfinn/gmapsTools"
+  },
+  {
     title: "Mealizer",
     details: "Meal and grocery planner for fast meal planning",
     photo: "./assets/projects/mealizer.png",
