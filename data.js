@@ -37,8 +37,7 @@ const data = [
       "Plots sampled data from Firebase using Plotly, local server samples ISP speed",
     photo: "./assets/projects/isp-logger.png",
     tags: "Svelte, JS, Firebase, Plotly.js",
-    live: "https://svelte.mattfowlerfinn.now.sh/",
-    github: "https://github.com/mfowlerfinn/isp-performance-logger"
+    live: "https://svelte.mattfowlerfinn.now.sh/"
   },
   {
     title: "Envelope Labeler",
@@ -81,14 +80,14 @@ const data = [
     tags: "Javascript, HTML, CSS, bash, rPi, python",
     github: "https://github.com/mfowlerfinn/temp_web_logger-pi"
   },
-  {
-    title: "Etch-a-Sketch",
-    details: "Draw on a pixel grid with your mouse",
-    photo: "./assets/projects/etch.png",
-    tags: "Javascript, HTML, CSS",
-    github: "https://github.com/mfowlerfinn/etch-a-sketch",
-    live: "https://mfowlerfinn.github.io/etch-a-sketch/"
-  },
+  // {
+  //   title: "Etch-a-Sketch",
+  //   details: "Draw on a pixel grid with your mouse",
+  //   photo: "./assets/projects/etch.png",
+  //   tags: "Javascript, HTML, CSS",
+  //   github: "https://github.com/mfowlerfinn/etch-a-sketch",
+  //   live: "https://mfowlerfinn.github.io/etch-a-sketch/"
+  // },
   {
     title: "Voltage Logging Webserver",
     details:
