@@ -33,16 +33,14 @@ const data = [
   },
   {
     title: "ISP speed logger",
-    details:
-      "Plots sampled data from Firebase using Plotly, local server samples ISP speed",
+    details: "Plots sampled data from Firebase using Plotly, local server samples ISP speed",
     photo: "./assets/projects/isp-logger.png",
     tags: "Svelte, JS, Firebase, Plotly.js",
-    live: "https://svelte.mattfowlerfinn.now.sh/"
+    github: "https://github.com/mfowlerfinn/isp-performance-logger"
   },
   {
     title: "Envelope Labeler",
-    details:
-      "Webapp that outputs PDF envelopes from CSV input (client-side)",
+    details: "Webapp that outputs PDF envelopes from CSV input (client-side)",
     photo: "./assets/projects/envelope.png",
     tags: "JS, HTML, CSS, Webpack, pdfkit",
     live: "https://mfowlerfinn.github.io/envelope_generator/",
@@ -66,51 +64,40 @@ const data = [
   },
   {
     title: "Espresso PID thermostat",
-    details:
-      "This microcontroller reads the temp from a digital sensor strapped to the boiler, calcuates the current error (pid loop), and responds by modifying the duty cycle of the heaters. MUCH better coffee!",
+    details: "This microcontroller reads the temp from a digital sensor strapped to the boiler, calcuates the current error (pid loop), and responds by modifying the duty cycle of the heaters. MUCH better coffee!",
     photo: "./assets/projects/gaggia_pid.jpg",
     tags: "C++, Arduino",
     github: "https://github.com/mfowlerfinn/espresso-pid"
   },
   {
     title: "Temperature Logger",
-    details:
-      "Long term temperature logger with web graph. Great for monitoring temperature sensitive spaces remotely.",
+    details: "Long term temperature logger with web graph. Great for monitoring temperature sensitive spaces remotely.",
     photo: "./assets/projects/temp_logger_pi.png",
     tags: "Javascript, HTML, CSS, bash, rPi, python",
     github: "https://github.com/mfowlerfinn/temp_web_logger-pi"
   },
-  // {
-  //   title: "Etch-a-Sketch",
-  //   details: "Draw on a pixel grid with your mouse",
-  //   photo: "./assets/projects/etch.png",
-  //   tags: "Javascript, HTML, CSS",
-  //   github: "https://github.com/mfowlerfinn/etch-a-sketch",
-  //   live: "https://mfowlerfinn.github.io/etch-a-sketch/"
-  // },
   {
     title: "Voltage Logging Webserver",
-    details:
-      "This headless multimeter samples voltage and records it to a SD card. The ESP8266 then serves up a webpage with a graph of the data.",
+    details: "This headless multimeter samples voltage and records it to a SD card. The ESP8266 then serves up a webpage with a graph of the data.",
     photo: "./assets/projects/blank.png",
     tags: "C++, Javascript, HTML, CSS, Arduino",
     github: "https://github.com/mfowlerfinn/voltage_web_logger"
   },
   {
     title: "Environmental Sensor",
-    details:
-      "Developed for a local laboratory, this has a highly accurate temperature and humidity sensor with on-board display. I also designed and printed the case",
+    details: "Developed for a local laboratory, this has a highly accurate temperature and humidity sensor with on-board display. I also designed and printed the case",
     photo: "./assets/projects/blank.png",
     tags: "C++, Arduino",
     github: "https://github.com/mfowlerfinn/environmental-sensor_esp32"
   },
   {
     title: "Incubator PID thermostat",
-    details:
-      "Developed for a local laboratory, this microcontroller creates a micro-climate with a carefully controlled heater.",
+    details: "Developed for a local laboratory, this microcontroller creates a micro-climate with a carefully controlled heater.",
     photo: "./assets/projects/blank.png",
     tags: "C++, Arduino",
     github: "https://github.com/mfowlerfinn/thermostat-keypad-pid"
+  }
+];
     //},
     // {
     // 	title: "Websocket IC2 control",
@@ -138,5 +125,11 @@ const data = [
     // 		"Universal scale display with tare function; will work with any Wheatstone Bridge. Powered via 9v battery.",
     // 	photo: "./assets/projects/blank.png",
     // 	tags: "C++, Arduino"
-  }
-];
+      // {
+    //   title: "Etch-a-Sketch",
+    //   details: "Draw on a pixel grid with your mouse",
+    //   photo: "./assets/projects/etch.png",
+    //   tags: "Javascript, HTML, CSS",
+    //   github: "https://github.com/mfowlerfinn/etch-a-sketch",
+    //   live: "https://mfowlerfinn.github.io/etch-a-sketch/"
+    // },
